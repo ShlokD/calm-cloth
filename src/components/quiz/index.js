@@ -271,9 +271,8 @@ const Quiz = () => {
             <OptionButton
               onClick={() => onOptionSelected(i)}
               key={`option-${i}`}
-            >
-              {option}
-            </OptionButton>
+              dangerouslySetInnerHTML={{ __html: option }}
+            ></OptionButton>
           );
         })}
       </div>

@@ -14,9 +14,7 @@ export default function App({ Component, pageProps }) {
         </Link>
       </header>
       <Component {...pageProps} />
-      <footer className="fixed bottom-0 p-4">
-        Designed using Open Trivia DB
-      </footer>
+      <footer className="bottom-0 p-4">Designed using Open Trivia DB</footer>
     </>
   );
 }
