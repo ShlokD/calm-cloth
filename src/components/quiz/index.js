@@ -100,6 +100,7 @@ const Quiz = () => {
           time: timeRef.current,
           score: scoreRef.current,
         });
+        return "Are you sure?";
       }
     });
 
@@ -152,6 +153,7 @@ const Quiz = () => {
         questionsRef.current = storedQuestions.questions;
         currentQuestionRef.current = storedQuestions.currentQuestion;
         timeRef.current = storedQuestions.time;
+        scoreRef.current = storedQuestions.score;
         setGameState("START");
         gameStateRef.current = "START";
       } else {
