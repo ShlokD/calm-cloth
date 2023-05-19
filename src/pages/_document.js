@@ -10,6 +10,10 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Mukta:wght@700&family=Poppins:wght@400;700&display=swap"
           rel="stylesheet"
         />
+        <meta
+          name="description"
+          content="Play a daily quiz. 5 questions in a minute"
+        />
         <title>Calm Cloth - Daily Quiz</title>
       </Head>
       <body className="bg-gray-800 text-white p-2">

@@ -16,7 +16,7 @@ export default function Home() {
       </div>
       <hr className="border-white border-2 w-full" />
       <div className="bg-gradient-to-b p-8 from-green-200 to-green-300 my-4 rounded-full text-3xl text-gray-900">
-        <Link href="/quiz">Go</Link>
+        <Link href="/quiz">Start Quiz</Link>
       </div>
     </main>
   );
