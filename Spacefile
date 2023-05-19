@@ -1,0 +1,7 @@
+# Spacefile Docs: https://go.deta.dev/docs/spacefile/v0
+v: 0
+micros:
+  - name: calm-cloth
+    src: ./
+    engine: next
+    primary: true
